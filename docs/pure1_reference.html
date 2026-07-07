@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pure1 Reference &mdash; py-pure-client 1.90.0 documentation</title>
+  <title>Pure1 Reference &mdash; py-pure-client 1.91.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/autodoc_pydantic.css" type="text/css" />
@@ -33,7 +33,7 @@
             <a href="index.html" class="icon icon-home"> py-pure-client
           </a>
               <div class="version">
-                1.90
+                1.91
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -71,6 +71,42 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#alertsresponse">AlertsResponse</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AlertsResponse"><code class="docutils literal notranslate"><span class="pre">AlertsResponse</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomaly">Anomaly</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.Anomaly"><code class="docutils literal notranslate"><span class="pre">Anomaly</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalyadditionaldatacommands">AnomalyAdditionalDataCommands</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataCommands"><code class="docutils literal notranslate"><span class="pre">AnomalyAdditionalDataCommands</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalyadditionaldataloginpattern">AnomalyAdditionalDataLoginPattern</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataLoginPattern"><code class="docutils literal notranslate"><span class="pre">AnomalyAdditionalDataLoginPattern</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalyadditionaldatametric">AnomalyAdditionalDataMetric</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataMetric"><code class="docutils literal notranslate"><span class="pre">AnomalyAdditionalDataMetric</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalygetresponse">AnomalyGetResponse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyGetResponse"><code class="docutils literal notranslate"><span class="pre">AnomalyGetResponse</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalymetricreference">AnomalyMetricReference</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyMetricReference"><code class="docutils literal notranslate"><span class="pre">AnomalyMetricReference</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalymetricreferenceadditionaldata">AnomalyMetricReferenceAdditionalData</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData"><code class="docutils literal notranslate"><span class="pre">AnomalyMetricReferenceAdditionalData</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalyresource">AnomalyResource</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyResource"><code class="docutils literal notranslate"><span class="pre">AnomalyResource</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#anomalyresponse">AnomalyResponse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.AnomalyResponse"><code class="docutils literal notranslate"><span class="pre">AnomalyResponse</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#array">Array</a><ul>
@@ -191,6 +227,30 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#currentmetric">CurrentMetric</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.CurrentMetric"><code class="docutils literal notranslate"><span class="pre">CurrentMetric</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cve">Cve</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.Cve"><code class="docutils literal notranslate"><span class="pre">Cve</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cvegetresponse">CveGetResponse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.CveGetResponse"><code class="docutils literal notranslate"><span class="pre">CveGetResponse</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cvepatch">CvePatch</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.CvePatch"><code class="docutils literal notranslate"><span class="pre">CvePatch</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cveresource">CveResource</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.CveResource"><code class="docutils literal notranslate"><span class="pre">CveResource</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cveresponse">CveResponse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.CveResponse"><code class="docutils literal notranslate"><span class="pre">CveResponse</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cveversion">CveVersion</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.CveVersion"><code class="docutils literal notranslate"><span class="pre">CveVersion</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#directory">Directory</a><ul>
@@ -523,6 +583,18 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#resourcewithlocations">ResourceWithLocations</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.ResourceWithLocations"><code class="docutils literal notranslate"><span class="pre">ResourceWithLocations</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#securityinsightarray">SecurityInsightArray</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.SecurityInsightArray"><code class="docutils literal notranslate"><span class="pre">SecurityInsightArray</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#securityinsightarraygetresponse">SecurityInsightArrayGetResponse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.SecurityInsightArrayGetResponse"><code class="docutils literal notranslate"><span class="pre">SecurityInsightArrayGetResponse</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#securityinsightarrayresponse">SecurityInsightArrayResponse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pypureclient.pure1.SecurityInsightArrayResponse"><code class="docutils literal notranslate"><span class="pre">SecurityInsightArrayResponse</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#smb">Smb</a><ul>
@@ -1113,6 +1185,177 @@ quotes are required around all strings.</p></li>
 <li><p><strong>resource_names</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – A comma-separated list of resource names. If there is not at least one resource
 that matches each <cite>resource_name</cite> element, an error is returned. Single
 quotes are required around all strings.</p></li>
+<li><p><strong>_preload_content</strong> (<em>bool</em><em>, </em><em>optional</em>) – if False, the ApiResponse.data will
+be set to none and raw_data will store the
+HTTP response body without reading/decoding.
+Default is True.</p></li>
+<li><p><strong>_return_http_data_only</strong> (<em>bool</em><em>, </em><em>optional</em>) – response data instead of ApiResponse
+object with status code, headers, etc</p></li>
+<li><p><strong>_request_timeout</strong> (<em>int</em><em> or </em><em>(</em><em>float</em><em>, </em><em>float</em><em>)</em><em>, </em><em>optional</em>) – timeout setting for this request. If one
+number provided, it will be total request
+timeout. It can also be a pair (tuple) of
+(connection, read) timeouts.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>ValidResponse: If the call was successful.
+ErrorResponse: If the call was not successful.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Union[<a class="reference internal" href="shared_reference.html#pypureclient.responses.ValidResponse" title="pypureclient.responses.ValidResponse">ValidResponse</a>, <a class="reference internal" href="shared_reference.html#pypureclient.responses.ErrorResponse" title="pypureclient.responses.ErrorResponse">ErrorResponse</a>]</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>PureError: If calling the API fails.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError: If a parameter is of an invalid type.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError: If invalid or missing parameters are used.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pypureclient.pure1.Pure1_1_5.client.Client.get_assessment_security_anomalies">
+<span class="sig-name descname"><span class="pre">get_assessment_security_anomalies</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">authorization</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_request_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">continuation_token</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filter</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="shared_reference.html#pypureclient.properties.Filter" title="pypureclient.properties.Filter"><span class="pre">Filter</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedIntValue</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sort</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedStrValue</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_preload_content</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_return_http_data_only</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_request_timeout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="shared_reference.html#pypureclient.responses.ValidResponse" title="pypureclient.responses.ValidResponse"><span class="pre">ValidResponse</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="shared_reference.html#pypureclient.responses.ErrorResponse" title="pypureclient.responses.ErrorResponse"><span class="pre">ErrorResponse</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pypureclient.pure1.Pure1_1_5.client.Client.get_assessment_security_anomalies" title="Permalink to this definition"></a></dt>
+<dd><p>Get security anomalies</p>
+<p>Retrieves security anomalies detected on Pure Storage appliances. Results can be filtered by <cite>id</cite>, <cite>type</cite>, and <cite>status</cite>, and sorted by any of those fields.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>authorization</strong> (<em>str</em>) – Deprecated. Please use Client level authorization</p></li>
+<li><p><strong>x_request_id</strong> (<em>str</em>) – Supplied by client during request or generated by server.</p></li>
+<li><p><strong>continuation_token</strong> (<em>str</em>) – An opaque token used to iterate over a collection. The token to use on the next
+request is returned in the <cite>continuation_token</cite> field of the result.
+Single quotes are required around all strings.</p></li>
+<li><p><strong>filter</strong> (<em>Union</em><em>[</em><em>str</em><em>, </em><a class="reference internal" href="shared_reference.html#pypureclient.properties.Filter" title="pypureclient.properties.Filter"><em>Filter</em></a><em>]</em>) – Exclude resources that don’t match the specified criteria. Single quotes are
+required around all strings inside the filters.</p></li>
+<li><p><strong>limit</strong> (<em>int</em>) – Limit the size of the response to the specified number of resources. A limit of
+0 can be used to get the number of resources without getting all of the
+resources. It will be returned in the total_item_count field. If a client
+asks for a page size larger than the maximum number, the request is still
+valid. In that case the server just returns the maximum number of items,
+disregarding the client’s page size request. If not specified, defaults to
+1000.</p></li>
+<li><p><strong>offset</strong> (<em>int</em>) – The offset of the first resource to return from a collection.</p></li>
+<li><p><strong>sort</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – Sort the response by the specified fields (in descending order if ‘-’ is
+appended to the field name). If you provide a sort you will not get a
+continuation token in the response.</p></li>
+<li><p><strong>_preload_content</strong> (<em>bool</em><em>, </em><em>optional</em>) – if False, the ApiResponse.data will
+be set to none and raw_data will store the
+HTTP response body without reading/decoding.
+Default is True.</p></li>
+<li><p><strong>_return_http_data_only</strong> (<em>bool</em><em>, </em><em>optional</em>) – response data instead of ApiResponse
+object with status code, headers, etc</p></li>
+<li><p><strong>_request_timeout</strong> (<em>int</em><em> or </em><em>(</em><em>float</em><em>, </em><em>float</em><em>)</em><em>, </em><em>optional</em>) – timeout setting for this request. If one
+number provided, it will be total request
+timeout. It can also be a pair (tuple) of
+(connection, read) timeouts.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>ValidResponse: If the call was successful.
+ErrorResponse: If the call was not successful.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Union[<a class="reference internal" href="shared_reference.html#pypureclient.responses.ValidResponse" title="pypureclient.responses.ValidResponse">ValidResponse</a>, <a class="reference internal" href="shared_reference.html#pypureclient.responses.ErrorResponse" title="pypureclient.responses.ErrorResponse">ErrorResponse</a>]</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>PureError: If calling the API fails.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError: If a parameter is of an invalid type.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError: If invalid or missing parameters are used.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pypureclient.pure1.Pure1_1_5.client.Client.get_assessment_security_cves">
+<span class="sig-name descname"><span class="pre">get_assessment_security_cves</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">authorization</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_request_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">continuation_token</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filter</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="shared_reference.html#pypureclient.properties.Filter" title="pypureclient.properties.Filter"><span class="pre">Filter</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedIntValue</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sort</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedStrValue</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_preload_content</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_return_http_data_only</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_request_timeout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="shared_reference.html#pypureclient.responses.ValidResponse" title="pypureclient.responses.ValidResponse"><span class="pre">ValidResponse</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="shared_reference.html#pypureclient.responses.ErrorResponse" title="pypureclient.responses.ErrorResponse"><span class="pre">ErrorResponse</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pypureclient.pure1.Pure1_1_5.client.Client.get_assessment_security_cves" title="Permalink to this definition"></a></dt>
+<dd><p>Get common vulnerabilities and exposures</p>
+<p>Retrieves common vulnerabilities and exposures (CVEs) and their details, including description, severity, affected and fixed versions, affected appliances, and link to additional information. Results can be filtered by <cite>id</cite>, <cite>severity</cite>, and <cite>cvss_score</cite>, and sorted by any of those fields.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>authorization</strong> (<em>str</em>) – Deprecated. Please use Client level authorization</p></li>
+<li><p><strong>x_request_id</strong> (<em>str</em>) – Supplied by client during request or generated by server.</p></li>
+<li><p><strong>continuation_token</strong> (<em>str</em>) – An opaque token used to iterate over a collection. The token to use on the next
+request is returned in the <cite>continuation_token</cite> field of the result.
+Single quotes are required around all strings.</p></li>
+<li><p><strong>filter</strong> (<em>Union</em><em>[</em><em>str</em><em>, </em><a class="reference internal" href="shared_reference.html#pypureclient.properties.Filter" title="pypureclient.properties.Filter"><em>Filter</em></a><em>]</em>) – Exclude resources that don’t match the specified criteria. Single quotes are
+required around all strings inside the filters.</p></li>
+<li><p><strong>limit</strong> (<em>int</em>) – Limit the size of the response to the specified number of resources. A limit of
+0 can be used to get the number of resources without getting all of the
+resources. It will be returned in the total_item_count field. If a client
+asks for a page size larger than the maximum number, the request is still
+valid. In that case the server just returns the maximum number of items,
+disregarding the client’s page size request. If not specified, defaults to
+1000.</p></li>
+<li><p><strong>offset</strong> (<em>int</em>) – The offset of the first resource to return from a collection.</p></li>
+<li><p><strong>sort</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – Sort the response by the specified fields (in descending order if ‘-’ is
+appended to the field name). If you provide a sort you will not get a
+continuation token in the response.</p></li>
+<li><p><strong>_preload_content</strong> (<em>bool</em><em>, </em><em>optional</em>) – if False, the ApiResponse.data will
+be set to none and raw_data will store the
+HTTP response body without reading/decoding.
+Default is True.</p></li>
+<li><p><strong>_return_http_data_only</strong> (<em>bool</em><em>, </em><em>optional</em>) – response data instead of ApiResponse
+object with status code, headers, etc</p></li>
+<li><p><strong>_request_timeout</strong> (<em>int</em><em> or </em><em>(</em><em>float</em><em>, </em><em>float</em><em>)</em><em>, </em><em>optional</em>) – timeout setting for this request. If one
+number provided, it will be total request
+timeout. It can also be a pair (tuple) of
+(connection, read) timeouts.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>ValidResponse: If the call was successful.
+ErrorResponse: If the call was not successful.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Union[<a class="reference internal" href="shared_reference.html#pypureclient.responses.ValidResponse" title="pypureclient.responses.ValidResponse">ValidResponse</a>, <a class="reference internal" href="shared_reference.html#pypureclient.responses.ErrorResponse" title="pypureclient.responses.ErrorResponse">ErrorResponse</a>]</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>PureError: If calling the API fails.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>ValueError: If a parameter is of an invalid type.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p>TypeError: If invalid or missing parameters are used.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pypureclient.pure1.Pure1_1_5.client.Client.get_assessment_security_insights_arrays">
+<span class="sig-name descname"><span class="pre">get_assessment_security_insights_arrays</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">authorization</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_request_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">continuation_token</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filter</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="shared_reference.html#pypureclient.properties.Filter" title="pypureclient.properties.Filter"><span class="pre">Filter</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedIntValue</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sort</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedStrValue</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_preload_content</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_return_http_data_only</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_request_timeout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="shared_reference.html#pypureclient.responses.ValidResponse" title="pypureclient.responses.ValidResponse"><span class="pre">ValidResponse</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="shared_reference.html#pypureclient.responses.ErrorResponse" title="pypureclient.responses.ErrorResponse"><span class="pre">ErrorResponse</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pypureclient.pure1.Pure1_1_5.client.Client.get_assessment_security_insights_arrays" title="Permalink to this definition"></a></dt>
+<dd><p>Get appliance security insights information.</p>
+<p>Retrieves information about FlashArray and FlashBlade insights connected to security assessment.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>authorization</strong> (<em>str</em>) – Deprecated. Please use Client level authorization</p></li>
+<li><p><strong>x_request_id</strong> (<em>str</em>) – Supplied by client during request or generated by server.</p></li>
+<li><p><strong>continuation_token</strong> (<em>str</em>) – An opaque token used to iterate over a collection. The token to use on the next
+request is returned in the <cite>continuation_token</cite> field of the result.
+Single quotes are required around all strings.</p></li>
+<li><p><strong>filter</strong> (<em>Union</em><em>[</em><em>str</em><em>, </em><a class="reference internal" href="shared_reference.html#pypureclient.properties.Filter" title="pypureclient.properties.Filter"><em>Filter</em></a><em>]</em>) – Exclude resources that don’t match the specified criteria. Single quotes are
+required around all strings inside the filters.</p></li>
+<li><p><strong>limit</strong> (<em>int</em>) – Limit the size of the response to the specified number of resources. A limit of
+0 can be used to get the number of resources without getting all of the
+resources. It will be returned in the total_item_count field. If a client
+asks for a page size larger than the maximum number, the request is still
+valid. In that case the server just returns the maximum number of items,
+disregarding the client’s page size request. If not specified, defaults to
+1000.</p></li>
+<li><p><strong>offset</strong> (<em>int</em>) – The offset of the first resource to return from a collection.</p></li>
+<li><p><strong>sort</strong> (<em>List</em><em>[</em><em>str</em><em>]</em>) – Sort the response by the specified fields (in descending order if ‘-’ is
+appended to the field name). If you provide a sort you will not get a
+continuation token in the response.</p></li>
 <li><p><strong>_preload_content</strong> (<em>bool</em><em>, </em><em>optional</em>) – if False, the ApiResponse.data will
 be set to none and raw_data will store the
 HTTP response body without reading/decoding.
@@ -4051,6 +4294,277 @@ ErrorResponse: If the call was not successful.</p>
 </dd></dl>
 
 </section>
+<section id="anomaly">
+<h3>Anomaly<a class="headerlink" href="#anomaly" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">Anomaly</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_as_of</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">description</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyResource" title="pypureclient.pure1.Pure1_1_5.models.anomaly_resource.AnomalyResource"><span class="pre">AnomalyResource</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.Anomaly" title="Permalink to this definition"></a></dt>
+<dd><p>A security anomaly detected on a Pure Storage appliance.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.as_of">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">as_of</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><em class="property"> <span class="pre">(alias</span> <span class="pre">'_as_of')</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.as_of" title="Permalink to this definition"></a></dt>
+<dd><p>The freshness of the data (timestamp in millis since epoch).</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.description">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">description</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.description" title="Permalink to this definition"></a></dt>
+<dd><p>Human-readable description of the anomaly type and what it detects.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.end_time">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">end_time</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.end_time" title="Permalink to this definition"></a></dt>
+<dd><p>End time of the anomaly, in milliseconds since UNIX epoch. If an anomaly is ongoing, this value may be updated to a more recent time.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.id">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">id</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.id" title="Permalink to this definition"></a></dt>
+<dd><p>A non-modifiable, globally unique ID chosen by the system.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.resources">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resources</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyResource" title="pypureclient.pure1.Pure1_1_5.models.anomaly_resource.AnomalyResource"><span class="pre">AnomalyResource</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.resources" title="Permalink to this definition"></a></dt>
+<dd><p>The storage resources associated with this anomaly. For single-dimension anomalies this contains one object; for multi-dimensional or fleet anomalies there may be multiple objects across one or more arrays.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.start_time">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">start_time</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.start_time" title="Permalink to this definition"></a></dt>
+<dd><p>Start time of the anomaly, in milliseconds since UNIX epoch.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.status">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">status</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.status" title="Permalink to this definition"></a></dt>
+<dd><p>Current status of the anomaly. Valid values are <cite>open</cite> and <cite>closed</cite>. An anomaly is <cite>open</cite> if its <cite>end_time</cite> is less than one week old.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Anomaly.type">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Anomaly.type" title="Permalink to this definition"></a></dt>
+<dd><p>The category of the anomaly. Valid values are <cite>drr</cite>, <cite>read_latency</cite>, <cite>write_latency</cite>, <cite>read_iops</cite>, <cite>write_iops</cite>, <cite>other_iops</cite>, <cite>read_bandwidth</cite>, <cite>write_bandwidth</cite>, <cite>capacity</cite>, <cite>volume_count</cite>, <cite>snapshot_count</cite>, <cite>admin_activities</cite>, <cite>multi_d_system</cite>, <cite>failed_login</cite>, and <cite>login_pattern</cite>.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalyadditionaldatacommands">
+<h3>AnomalyAdditionalDataCommands<a class="headerlink" href="#anomalyadditionaldatacommands" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyAdditionalDataCommands">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyAdditionalDataCommands</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">commands</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyAdditionalDataCommands" title="Permalink to this definition"></a></dt>
+<dd><p>Additional data for <cite>admin_activities</cite> anomalies.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyAdditionalDataCommands.commands">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">commands</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"> <span class="pre">[Required]</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyAdditionalDataCommands.commands" title="Permalink to this definition"></a></dt>
+<dd><p>List of Purity CLI commands involved in the anomaly.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalyadditionaldataloginpattern">
+<h3>AnomalyAdditionalDataLoginPattern<a class="headerlink" href="#anomalyadditionaldataloginpattern" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyAdditionalDataLoginPattern">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyAdditionalDataLoginPattern</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unusual_patterns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyAdditionalDataLoginPattern" title="Permalink to this definition"></a></dt>
+<dd><p>Additional data for <cite>login_pattern</cite> anomalies.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyAdditionalDataLoginPattern.unusual_patterns">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">unusual_patterns</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"> <span class="pre">[Required]</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyAdditionalDataLoginPattern.unusual_patterns" title="Permalink to this definition"></a></dt>
+<dd><p>List of unusual login pattern signals detected. Valid values are <cite>unusual_time</cite>, <cite>unusual_high_number</cite>, <cite>unusual_interface</cite>, and <cite>unusual_ip</cite>.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalyadditionaldatametric">
+<h3>AnomalyAdditionalDataMetric<a class="headerlink" href="#anomalyadditionaldatametric" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyAdditionalDataMetric">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyAdditionalDataMetric</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value_change_percentage</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedFloatValue</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ConstrainedIntValue</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyAdditionalDataMetric" title="Permalink to this definition"></a></dt>
+<dd><p>Additional data for <cite>drr</cite>, <cite>capacity</cite>, <cite>latency</cite> (and direction variants), <cite>iops</cite> (and direction variants), <cite>bandwidth</cite> (and direction variants), <cite>volume_count</cite>, and <cite>snapshot_count</cite> anomalies.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyAdditionalDataMetric.value_change_percentage">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">value_change_percentage</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedFloatValue</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ConstrainedIntValue</span><span class="p"><span class="pre">]</span></span></em><em class="property"> <span class="pre">[Required]</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyAdditionalDataMetric.value_change_percentage" title="Permalink to this definition"></a></dt>
+<dd><p>Fractional change in the metric value that triggered the anomaly.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalygetresponse">
+<h3>AnomalyGetResponse<a class="headerlink" href="#anomalygetresponse" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyGetResponse">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyGetResponse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">continuation_token</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_item_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">items</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Anomaly" title="pypureclient.pure1.Pure1_1_5.models.anomaly.Anomaly"><span class="pre">Anomaly</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyGetResponse" title="Permalink to this definition"></a></dt>
+<dd><dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyGetResponse.continuation_token">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">continuation_token</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyGetResponse.continuation_token" title="Permalink to this definition"></a></dt>
+<dd><p>Continuation token that can be provided in the continuation_token query param to get the next page of data. If you use the continuation token to page through data you are guaranteed to get all items exactly once regardless of how items are modified. If an item is added or deleted during the pagination then it may or may not be returned. The continuation token is generated if the limit is less than the remaining number of items, and the default sort is used (no sort is specified).</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyGetResponse.items">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">items</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Anomaly" title="pypureclient.pure1.Pure1_1_5.models.anomaly.Anomaly"><span class="pre">Anomaly</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyGetResponse.items" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyGetResponse.total_item_count">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">total_item_count</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyGetResponse.total_item_count" title="Permalink to this definition"></a></dt>
+<dd><p>Total number of items after applying filter params.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalymetricreference">
+<h3>AnomalyMetricReference<a class="headerlink" href="#anomalymetricreference" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReference">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyMetricReference</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">additional_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData" title="pypureclient.pure1.Pure1_1_5.models.anomaly_metric_reference_additional_data.AnomalyMetricReferenceAdditionalData"><span class="pre">AnomalyMetricReferenceAdditionalData</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resource_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReference" title="Permalink to this definition"></a></dt>
+<dd><p>A metric reference associated with a resource in an anomaly.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReference.additional_data">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">additional_data</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData" title="pypureclient.pure1.Pure1_1_5.models.anomaly_metric_reference_additional_data.AnomalyMetricReferenceAdditionalData"><span class="pre">AnomalyMetricReferenceAdditionalData</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReference.additional_data" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReference.name">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReference.name" title="Permalink to this definition"></a></dt>
+<dd><p>The name of the metric. For example, <cite>capacity</cite> or <cite>data-protection</cite>.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReference.resource_type">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resource_type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReference.resource_type" title="Permalink to this definition"></a></dt>
+<dd><p>The resource type for this metric reference. Typically <cite>metrics</cite>, or <cite>null</cite> for metrics that do not have a backing resource type (e.g., <cite>array_admin_activities</cite>, <cite>array_login_pattern</cite>).</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalymetricreferenceadditionaldata">
+<h3>AnomalyMetricReferenceAdditionalData<a class="headerlink" href="#anomalymetricreferenceadditionaldata" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyMetricReferenceAdditionalData</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anyof_schema_1_validator</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataMetric" title="pypureclient.pure1.Pure1_1_5.models.anomaly_additional_data_metric.AnomalyAdditionalDataMetric"><span class="pre">AnomalyAdditionalDataMetric</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anyof_schema_2_validator</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataCommands" title="pypureclient.pure1.Pure1_1_5.models.anomaly_additional_data_commands.AnomalyAdditionalDataCommands"><span class="pre">AnomalyAdditionalDataCommands</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anyof_schema_3_validator</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataLoginPattern" title="pypureclient.pure1.Pure1_1_5.models.anomaly_additional_data_login_pattern.AnomalyAdditionalDataLoginPattern"><span class="pre">AnomalyAdditionalDataLoginPattern</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anyof_schema_4_validator</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">actual_instance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">any_of_schemas</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">['AnomalyAdditionalDataCommands',</span> <span class="pre">'AnomalyAdditionalDataLoginPattern',</span> <span class="pre">'AnomalyAdditionalDataMetric',</span> <span class="pre">'object']</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData" title="Permalink to this definition"></a></dt>
+<dd><p>Additional type-specific information about this contributing metric. The shape varies by metric type (e.g., a <cite>value_change_percentage</cite> for <cite>capacity</cite> or <cite>data-protection</cite> metrics, a list of <cite>commands</cite> for <cite>admin-activities</cite> metrics, or a list of <cite>unusual_patterns</cite> for <cite>login-pattern</cite> metrics). Absent for metrics that carry no supplementary data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Validators</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">actual_instance_must_validate_anyof</span></code> » <code class="xref py py-obj docutils literal notranslate"><span class="pre">actual_instance</span></code></p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData.actual_instance">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">actual_instance</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Any</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData.actual_instance" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Validated by</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">actual_instance_must_validate_anyof</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData.any_of_schemas">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">any_of_schemas</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['AnomalyAdditionalDataCommands',</span> <span class="pre">'AnomalyAdditionalDataLoginPattern',</span> <span class="pre">'AnomalyAdditionalDataMetric',</span> <span class="pre">'object']</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData.any_of_schemas" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Constraints</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>const</strong> = [‘AnomalyAdditionalDataCommands’, ‘AnomalyAdditionalDataLoginPattern’, ‘AnomalyAdditionalDataMetric’, ‘object’]</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_1_validator">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">anyof_schema_1_validator</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataMetric" title="pypureclient.pure1.Pure1_1_5.models.anomaly_additional_data_metric.AnomalyAdditionalDataMetric"><span class="pre">AnomalyAdditionalDataMetric</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_1_validator" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_2_validator">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">anyof_schema_2_validator</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataCommands" title="pypureclient.pure1.Pure1_1_5.models.anomaly_additional_data_commands.AnomalyAdditionalDataCommands"><span class="pre">AnomalyAdditionalDataCommands</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_2_validator" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_3_validator">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">anyof_schema_3_validator</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyAdditionalDataLoginPattern" title="pypureclient.pure1.Pure1_1_5.models.anomaly_additional_data_login_pattern.AnomalyAdditionalDataLoginPattern"><span class="pre">AnomalyAdditionalDataLoginPattern</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_3_validator" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_4_validator">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">anyof_schema_4_validator</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData.anyof_schema_4_validator" title="Permalink to this definition"></a></dt>
+<dd><p>Additional, metric-dependent information explaining why the identified data was anomalous. Fallback for additional data types introduced in newer API versions.</p>
+</dd></dl>
+
+<dl class="py method pydantic_validator">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyMetricReferenceAdditionalData.actual_instance_must_validate_anyof">
+<em class="property"><span class="pre">validator</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">actual_instance_must_validate_anyof</span></span><em class="autodoc_pydantic_validator_arrow property">&#160; <span class="pre">»</span>&#160; </em><em class="xref py py-obj"><span class="pre">actual_instance</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyMetricReferenceAdditionalData.actual_instance_must_validate_anyof" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalyresource">
+<h3>AnomalyResource<a class="headerlink" href="#anomalyresource" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResource">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyResource</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arrays</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.FixedReferenceFqdn" title="pypureclient.pure1.Pure1_1_5.models.fixed_reference_fqdn.FixedReferenceFqdn"><span class="pre">FixedReferenceFqdn</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">metrics</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyMetricReference" title="pypureclient.pure1.Pure1_1_5.models.anomaly_metric_reference.AnomalyMetricReference"><span class="pre">AnomalyMetricReference</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resource_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyResource" title="Permalink to this definition"></a></dt>
+<dd><p>A storage resource associated with a security anomaly, such as a volume, bucket, file system, directory, admin user, or array.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResource.arrays">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">arrays</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.FixedReferenceFqdn" title="pypureclient.pure1.Pure1_1_5.models.fixed_reference_fqdn.FixedReferenceFqdn"><span class="pre">FixedReferenceFqdn</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyResource.arrays" title="Permalink to this definition"></a></dt>
+<dd><p>The arrays on which this resource resides.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResource.id">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">id</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyResource.id" title="Permalink to this definition"></a></dt>
+<dd><p>The unique identifier of the resource.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResource.metrics">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">metrics</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.AnomalyMetricReference" title="pypureclient.pure1.Pure1_1_5.models.anomaly_metric_reference.AnomalyMetricReference"><span class="pre">AnomalyMetricReference</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyResource.metrics" title="Permalink to this definition"></a></dt>
+<dd><p>The metrics that contributed to anomaly detection for this resource.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResource.name">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyResource.name" title="Permalink to this definition"></a></dt>
+<dd><p>The name of the resource.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResource.resource_type">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resource_type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyResource.resource_type" title="Permalink to this definition"></a></dt>
+<dd><p>The REST endpoint type of the resource. Valid values are <cite>buckets</cite>, <cite>file-systems</cite>, <cite>volumes</cite>, <cite>directories</cite>, <cite>admins</cite>, and <cite>arrays</cite>.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="anomalyresponse">
+<h3>AnomalyResponse<a class="headerlink" href="#anomalyresponse" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResponse">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">AnomalyResponse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">items</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Anomaly" title="pypureclient.pure1.Pure1_1_5.models.anomaly.Anomaly"><span class="pre">Anomaly</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.AnomalyResponse" title="Permalink to this definition"></a></dt>
+<dd><dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.AnomalyResponse.items">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">items</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Anomaly" title="pypureclient.pure1.Pure1_1_5.models.anomaly.Anomaly"><span class="pre">Anomaly</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.AnomalyResponse.items" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
 <section id="array">
 <h3>Array<a class="headerlink" href="#array" title="Permalink to this heading"></a></h3>
 <dl class="py class pydantic_model">
@@ -4975,6 +5489,211 @@ ErrorResponse: If the call was not successful.</p>
 <dt class="sig sig-object py" id="pypureclient.pure1.CurrentMetric.unit">
 <em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">unit</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CurrentMetric.unit" title="Permalink to this definition"></a></dt>
 <dd><p>The unit of the metric.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="cve">
+<h3>Cve<a class="headerlink" href="#cve" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">Cve</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_as_of</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">affected_resources</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CveResource" title="pypureclient.pure1.Pure1_1_5.models.cve_resource.CveResource"><span class="pre">CveResource</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">affected_versions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CveVersion" title="pypureclient.pure1.Pure1_1_5.models.cve_version.CveVersion"><span class="pre">CveVersion</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cvss_score</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictFloat</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">description</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">detected_at</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixed_in_patches</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CvePatch" title="pypureclient.pure1.Pure1_1_5.models.cve_patch.CvePatch"><span class="pre">CvePatch</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixed_in_versions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CveVersion" title="pypureclient.pure1.Pure1_1_5.models.cve_version.CveVersion"><span class="pre">CveVersion</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kb_article</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">severity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">updated_at</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.Cve" title="Permalink to this definition"></a></dt>
+<dd><p>CVE details and affected Pure Storage appliances.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.affected_resources">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">affected_resources</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CveResource" title="pypureclient.pure1.Pure1_1_5.models.cve_resource.CveResource"><span class="pre">CveResource</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.affected_resources" title="Permalink to this definition"></a></dt>
+<dd><p>The list of affected resources.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.affected_versions">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">affected_versions</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CveVersion" title="pypureclient.pure1.Pure1_1_5.models.cve_version.CveVersion"><span class="pre">CveVersion</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.affected_versions" title="Permalink to this definition"></a></dt>
+<dd><p>The list of affected versions.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.as_of">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">as_of</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><em class="property"> <span class="pre">(alias</span> <span class="pre">'_as_of')</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.as_of" title="Permalink to this definition"></a></dt>
+<dd><p>The freshness of the data (timestamp in millis since epoch).</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.cvss_score">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">cvss_score</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictFloat</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.cvss_score" title="Permalink to this definition"></a></dt>
+<dd><p>The CVSS score of the CVE.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.description">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">description</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.description" title="Permalink to this definition"></a></dt>
+<dd><p>Human-readable description of the CVE.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.detected_at">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">detected_at</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.detected_at" title="Permalink to this definition"></a></dt>
+<dd><p>The time when a record for this CVE was created in Pure1, in milliseconds since UNIX epoch.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.fixed_in_patches">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">fixed_in_patches</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CvePatch" title="pypureclient.pure1.Pure1_1_5.models.cve_patch.CvePatch"><span class="pre">CvePatch</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.fixed_in_patches" title="Permalink to this definition"></a></dt>
+<dd><p>The list of patches that fix the CVE.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.fixed_in_versions">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">fixed_in_versions</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.CveVersion" title="pypureclient.pure1.Pure1_1_5.models.cve_version.CveVersion"><span class="pre">CveVersion</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.fixed_in_versions" title="Permalink to this definition"></a></dt>
+<dd><p>The list of versions that fix the CVE.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.id">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">id</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.id" title="Permalink to this definition"></a></dt>
+<dd><p>A non-modifiable, globally unique ID chosen by the system.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.kb_article">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">kb_article</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.kb_article" title="Permalink to this definition"></a></dt>
+<dd><p>A link to Pure’s KB article for the CVE.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.severity">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">severity</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.severity" title="Permalink to this definition"></a></dt>
+<dd><p>The severity of the CVE. Valid values are <cite>low</cite>, <cite>medium</cite>, <cite>high</cite>, <cite>critical</cite>, and <cite>none</cite>.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.Cve.updated_at">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">updated_at</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.Cve.updated_at" title="Permalink to this definition"></a></dt>
+<dd><p>The most recent time when this CVE’s record in Pure1 was modified, in milliseconds since UNIX epoch.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="cvegetresponse">
+<h3>CveGetResponse<a class="headerlink" href="#cvegetresponse" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveGetResponse">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">CveGetResponse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">continuation_token</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_item_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">items</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Cve" title="pypureclient.pure1.Pure1_1_5.models.cve.Cve"><span class="pre">Cve</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.CveGetResponse" title="Permalink to this definition"></a></dt>
+<dd><dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveGetResponse.continuation_token">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">continuation_token</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveGetResponse.continuation_token" title="Permalink to this definition"></a></dt>
+<dd><p>Continuation token that can be provided in the continuation_token query param to get the next page of data. If you use the continuation token to page through data you are guaranteed to get all items exactly once regardless of how items are modified. If an item is added or deleted during the pagination then it may or may not be returned. The continuation token is generated if the limit is less than the remaining number of items, and the default sort is used (no sort is specified).</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveGetResponse.items">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">items</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Cve" title="pypureclient.pure1.Pure1_1_5.models.cve.Cve"><span class="pre">Cve</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveGetResponse.items" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveGetResponse.total_item_count">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">total_item_count</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveGetResponse.total_item_count" title="Permalink to this definition"></a></dt>
+<dd><p>Total number of items after applying filter params.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="cvepatch">
+<h3>CvePatch<a class="headerlink" href="#cvepatch" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.CvePatch">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">CvePatch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">os</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.CvePatch" title="Permalink to this definition"></a></dt>
+<dd><p>Software patch to be installed on the array.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CvePatch.name">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CvePatch.name" title="Permalink to this definition"></a></dt>
+<dd><p>name of the patch.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CvePatch.os">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">os</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CvePatch.os" title="Permalink to this definition"></a></dt>
+<dd><p>The operating system. Valid values are: <cite>Purity//FA</cite>, <cite>Purity//FB</cite>.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="cveresource">
+<h3>CveResource<a class="headerlink" href="#cveresource" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResource">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">CveResource</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resource_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fqdn</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">os</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.CveResource" title="Permalink to this definition"></a></dt>
+<dd><dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResource.fqdn">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">fqdn</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveResource.fqdn" title="Permalink to this definition"></a></dt>
+<dd><p>The fully qualified domain name of the appliance when <cite>resource_type</cite> is <cite>arrays</cite>, <cite>null</cite> otherwise.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResource.id">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">id</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveResource.id" title="Permalink to this definition"></a></dt>
+<dd><p>The opaque and unique id of this resource.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResource.name">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveResource.name" title="Permalink to this definition"></a></dt>
+<dd><p>The name of this resource.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResource.os">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">os</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveResource.os" title="Permalink to this definition"></a></dt>
+<dd><p>The operating system. Valid values are <cite>Purity//FA</cite> and <cite>Purity//FB</cite>.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResource.resource_type">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resource_type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveResource.resource_type" title="Permalink to this definition"></a></dt>
+<dd><p>The type of this resource represented by the name of its REST endpoint. For example, “arrays”, “network-interfaces”, and “metrics”. The value may be <cite>null</cite> if the resource is not represented.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResource.version">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">version</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveResource.version" title="Permalink to this definition"></a></dt>
+<dd><p>The version of the software.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="cveresponse">
+<h3>CveResponse<a class="headerlink" href="#cveresponse" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResponse">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">CveResponse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">items</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Cve" title="pypureclient.pure1.Pure1_1_5.models.cve.Cve"><span class="pre">Cve</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.CveResponse" title="Permalink to this definition"></a></dt>
+<dd><dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveResponse.items">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">items</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.Cve" title="pypureclient.pure1.Pure1_1_5.models.cve.Cve"><span class="pre">Cve</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveResponse.items" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="cveversion">
+<h3>CveVersion<a class="headerlink" href="#cveversion" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveVersion">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">CveVersion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">os</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.CveVersion" title="Permalink to this definition"></a></dt>
+<dd><p>Software version.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveVersion.os">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">os</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveVersion.os" title="Permalink to this definition"></a></dt>
+<dd><p>The operating system. Valid values are <cite>Purity//FA</cite> and <cite>Purity//FB</cite>.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.CveVersion.version">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">version</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.CveVersion.version" title="Permalink to this definition"></a></dt>
+<dd><p>The version of the software.</p>
 </dd></dl>
 
 </dd></dl>
@@ -6746,13 +7465,13 @@ ErrorResponse: If the call was not successful.</p>
 <dl class="py attribute pydantic_field">
 <dt class="sig sig-object py" id="pypureclient.pure1.OauthTokenResponse.issued_token_type">
 <em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">issued_token_type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.OauthTokenResponse.issued_token_type" title="Permalink to this definition"></a></dt>
-<dd><p>The type of token that is issued. The Pure Storage REST API supports OAuth 2.0 access tokens.</p>
+<dd><p>The type of token that is issued. The Everpure REST API supports OAuth 2.0 access tokens.</p>
 </dd></dl>
 
 <dl class="py attribute pydantic_field">
 <dt class="sig sig-object py" id="pypureclient.pure1.OauthTokenResponse.token_type">
 <em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">token_type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.OauthTokenResponse.token_type" title="Permalink to this definition"></a></dt>
-<dd><p>Indicates how the API client can use the access token issued. The Pure Storage REST API supports the <cite>Bearer</cite> token.</p>
+<dd><p>Indicates how the API client can use the access token issued. The Everpure REST API supports the <cite>Bearer</cite> token.</p>
 </dd></dl>
 
 </dd></dl>
@@ -7674,6 +8393,76 @@ ErrorResponse: If the call was not successful.</p>
 <em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resource_type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.ResourceWithLocations.resource_type" title="Permalink to this definition"></a></dt>
 <dd><p>The type of this resource represented by the name of its REST endpoint. For example, “arrays”, “network-interfaces”, and “metrics”. The value may be <cite>null</cite> if the resource is not represented.</p>
 </dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="securityinsightarray">
+<h3>SecurityInsightArray<a class="headerlink" href="#securityinsightarray" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArray">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">SecurityInsightArray</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_as_of</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">additional_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resource</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.FixedReferenceFqdn" title="pypureclient.pure1.Pure1_1_5.models.fixed_reference_fqdn.FixedReferenceFqdn"><span class="pre">FixedReferenceFqdn</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArray" title="Permalink to this definition"></a></dt>
+<dd><p>A security insight reporting a potentially insecure condition on a single FlashArray or FlashBlade appliance. The _as_of is the time when the insight was generated.</p>
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArray.additional_data">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">additional_data</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArray.additional_data" title="Permalink to this definition"></a></dt>
+<dd><p>The arbitrary data associated with the insight.</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArray.as_of">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">as_of</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><em class="property"> <span class="pre">(alias</span> <span class="pre">'_as_of')</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArray.as_of" title="Permalink to this definition"></a></dt>
+<dd><p>The freshness of the data (timestamp in millis since epoch).</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArray.resource">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resource</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.FixedReferenceFqdn" title="pypureclient.pure1.Pure1_1_5.models.fixed_reference_fqdn.FixedReferenceFqdn"><span class="pre">FixedReferenceFqdn</span></a><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArray.resource" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArray.type">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">type</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArray.type" title="Permalink to this definition"></a></dt>
+<dd><p>The type of the insight. Valid values are <cite>appliance_not_phoning_home</cite>, <cite>end_of_life_purity_version_in_use</cite>, <cite>public_access_risk</cite>, <cite>purity_optimizations_available</cite>, <cite>unsafe_password_configuration</cite>, <cite>remote_assist_longer_than_eight_hours</cite>, <cite>remote_assist_longer_than_one_day</cite>, <cite>open_critical_alerts_detected</cite>, <cite>open_anomalies_detected</cite>, <cite>data_protection_needs_review</cite>, <cite>ntp_server_not_enabled</cite>, <cite>remote_access_control_not_enabled</cite>, <cite>critical_cve_detected</cite>, <cite>high_cve_detected</cite>, <cite>medium_cve_detected</cite>, and <cite>low_cve_detected</cite>.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="securityinsightarraygetresponse">
+<h3>SecurityInsightArrayGetResponse<a class="headerlink" href="#securityinsightarraygetresponse" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArrayGetResponse">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">SecurityInsightArrayGetResponse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">continuation_token</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_item_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">items</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.SecurityInsightArray" title="pypureclient.pure1.Pure1_1_5.models.security_insight_array.SecurityInsightArray"><span class="pre">SecurityInsightArray</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArrayGetResponse" title="Permalink to this definition"></a></dt>
+<dd><dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArrayGetResponse.continuation_token">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">continuation_token</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictStr</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArrayGetResponse.continuation_token" title="Permalink to this definition"></a></dt>
+<dd><p>Continuation token that can be provided in the continuation_token query param to get the next page of data. If you use the continuation token to page through data you are guaranteed to get all items exactly once regardless of how items are modified. If an item is added or deleted during the pagination then it may or may not be returned. The continuation token is generated if the limit is less than the remaining number of items, and the default sort is used (no sort is specified).</p>
+</dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArrayGetResponse.items">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">items</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.SecurityInsightArray" title="pypureclient.pure1.Pure1_1_5.models.security_insight_array.SecurityInsightArray"><span class="pre">SecurityInsightArray</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArrayGetResponse.items" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArrayGetResponse.total_item_count">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">total_item_count</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">StrictInt</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArrayGetResponse.total_item_count" title="Permalink to this definition"></a></dt>
+<dd><p>Total number of items after applying filter params.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="securityinsightarrayresponse">
+<h3>SecurityInsightArrayResponse<a class="headerlink" href="#securityinsightarrayresponse" title="Permalink to this heading"></a></h3>
+<dl class="py class pydantic_model">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArrayResponse">
+<em class="property"><span class="pre">pydantic</span> <span class="pre">model</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pypureclient.pure1.</span></span><span class="sig-name descname"><span class="pre">SecurityInsightArrayResponse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">items</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.SecurityInsightArray" title="pypureclient.pure1.Pure1_1_5.models.security_insight_array.SecurityInsightArray"><span class="pre">SecurityInsightArray</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArrayResponse" title="Permalink to this definition"></a></dt>
+<dd><dl class="py attribute pydantic_field">
+<dt class="sig sig-object py" id="pypureclient.pure1.SecurityInsightArrayResponse.items">
+<em class="property"><span class="pre">field</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">items</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">ConstrainedListValue</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pypureclient.pure1.SecurityInsightArray" title="pypureclient.pure1.Pure1_1_5.models.security_insight_array.SecurityInsightArray"><span class="pre">SecurityInsightArray</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pypureclient.pure1.SecurityInsightArrayResponse.items" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
 
 </dd></dl>
 
