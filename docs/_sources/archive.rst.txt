@@ -6,18 +6,18 @@ Documentation for previous releases could be found below
 .. toctree::
    :maxdepth: 1
 
-    1.90.0 <archive/1.90.0/index.rst>
-    1.89.0 <archive/1.89.0/index.rst>
-    1.88.0 <archive/1.88.0/index.rst>
-    1.87.0 <archive/1.87.0/index.rst>
-    1.86.0 <archive/1.86.0/index.rst>
-    1.85.0 <archive/1.85.0/index.rst>
-    1.84.1 <archive/1.84.1/index.rst>
-    1.84.0 <archive/1.84.0/index.rst>
-    1.83.1 <archive/1.83.1/index.rst>
-    1.83.0 <archive/1.83.0/index.rst>
-    1.82.0 <archive/1.82.0/index.rst>
-    1.81.0 <archive/1.81.0/index.rst>
-    1.80.0 <archive/1.80.0/index.rst>
-    1.79.0 <archive/1.79.0/index.rst>
-    1.78.0 <archive/1.78.0/index.rst>
+    1.91.0 <archive/1.91.0/index>
+    1.90.0 <archive/1.90.0/index>
+    1.89.0 <archive/1.89.0/index>
+    1.88.0 <archive/1.88.0/index>
+    1.87.0 <archive/1.87.0/index>
+    1.86.0 <archive/1.86.0/index>
+    1.85.0 <archive/1.85.0/index>
+    1.84.1 <archive/1.84.1/index>
+    1.84.0 <archive/1.84.0/index>
+    1.83.1 <archive/1.83.1/index>
+    1.83.0 <archive/1.83.0/index>
+    1.82.0 <archive/1.82.0/index>
+    1.81.0 <archive/1.81.0/index>
+    1.80.0 <archive/1.80.0/index>
+    1.79.0 <archive/1.79.0/index>

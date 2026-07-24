@@ -1,7 +1,4 @@
-.. py-pure-client documentation master file, created by
-   sphinx-quickstart on Tue Dec  4 11:37:13 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. py-pure-client documentation master file
 
 py-pure-client Documentation
 ============================
@@ -50,12 +47,10 @@ To learn what other Everpure customers are doing with the client, to share
 an implementation or contribute code, or to interact with Everpure,
 visit the `Everpure Community <https://community.purestorage.com/>`_.
 
-
 Changes
 -------
 
 See the :doc:`changelog` for a list of changes to py-pure-client.
-
 
 License
 -------
