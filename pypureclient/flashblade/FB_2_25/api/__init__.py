@@ -30,7 +30,7 @@ __class_apis_dict = {
     'ArraysApi': __LazyApiLoader('pypureclient.flashblade._common.apis.arrays_api_v_2_24', 'ArraysApi', '2.25'),
     'AuditLogTargetForFileSystemsApi': __LazyApiLoader('pypureclient.flashblade._common.apis.audit_log_target_for_file_systems_api_v_2_20', 'AuditLogTargetForFileSystemsApi', '2.25'),
     'AuditLogTargetForObjectStoreApi': __LazyApiLoader('pypureclient.flashblade._common.apis.audit_log_target_for_object_store_api_v_2_22', 'AuditLogTargetForObjectStoreApi', '2.25'),
-    'AuditsApi': __LazyApiLoader('pypureclient.flashblade._common.apis.audits_api_v_2_14', 'AuditsApi', '2.25'),
+    'AuditsApi': __LazyApiLoader('pypureclient.flashblade._common.apis.audits_api_v_2_17', 'AuditsApi', '2.25'),
     'AuthorizationApi': __LazyApiLoader('pypureclient.flashblade._common.apis.authorization_api_v_2_17', 'AuthorizationApi', '2.25'),
     'BladesApi': __LazyApiLoader('pypureclient.flashblade._common.apis.blades_api_v_2_17', 'BladesApi', '2.25'),
     'BucketReplicaLinksApi': __LazyApiLoader('pypureclient.flashblade._common.apis.bucket_replica_links_api_v_2_22', 'BucketReplicaLinksApi', '2.25'),

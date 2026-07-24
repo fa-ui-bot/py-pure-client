@@ -4053,7 +4053,7 @@ class Client(object):
     ) -> Union[ValidResponse, ErrorResponse]:
         """Get security anomalies
         
-        Retrieves security anomalies detected on Pure Storage appliances. Results can be filtered by `id`, `type`, and `status`, and sorted by any of those fields.
+        Retrieves security anomalies detected on Everpure appliances. Results can be filtered by `id`, `type`, and `status`, and sorted by any of those fields.
         
         :param authorization: Deprecated. Please use Client level authorization
         :type authorization: str

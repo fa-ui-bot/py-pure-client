@@ -788,9 +788,9 @@ class SupportApi:
         total_item_count: Annotated[Optional[StrictBool], Field(description="If set to `true`, the `total_item_count` matching the specified query parameters is calculated and returned in the response. If set to `false`, the `total_item_count` is `null` in the response. This may speed up queries where the `total_item_count` is large. If not specified, defaults to `false`.")] = None,
         **kwargs
     ) -> ApiResponse:  # noqa: E501
-        """List Pure Storage Support connection data
+        """List Everpure Support connection data
 
-        Displays information about whether the array can connect to Pure Storage Support by establishing a secure shell or secure HTTP connection and verifies that messages can be exchanged.
+        Displays information about whether the array can connect to Everpure Support by establishing a secure shell or secure HTTP connection and verifies that messages can be exchanged.
 
         :param authorization: Access token (in JWT format) required to use any API endpoint (except `/oauth2`, `/login`, and `/logout`)
         :type authorization: str

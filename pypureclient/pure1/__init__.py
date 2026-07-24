@@ -25,9 +25,12 @@ from pypureclient.properties import Property, Filter
 from pypureclient.responses import ValidResponse, ErrorResponse, ApiError, ResponseHeaders
 
 def __getattr__(name, default=None):
-    import pypureclient.pure1.Pure1_1_5.models as _target_models_package
+    import importlib
+    from .__modules_dict import __modules_dict as _modules_dict
+    _latest_package = list(_modules_dict.values())[-1]
     if name == '_modname':
-        return 'pypureclient.pure1.Pure1_1_5'
+        return _latest_package
+    _target_models_package = importlib.import_module(f'{_latest_package}.models')
     _model_class = getattr(_target_models_package, name, default)
     if _model_class:
         if os.environ.get('DOCS_GENERATION') is None:

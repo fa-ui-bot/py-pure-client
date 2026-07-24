@@ -29,7 +29,7 @@ from pypureclient.pure1.Pure1_1_5.models.anomaly_resource import AnomalyResource
 
 class Anomaly(BaseModel):
     """
-    A security anomaly detected on a Pure Storage appliance.
+    A security anomaly detected on a Everpure appliance.
     """
     as_of: Optional[StrictInt] = Field(default=None, alias="_as_of", description="The freshness of the data (timestamp in millis since epoch).")
     description: Optional[StrictStr] = Field(default=None, description="Human-readable description of the anomaly type and what it detects.")
