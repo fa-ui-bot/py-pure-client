@@ -25,7 +25,7 @@ $ pip3 install build
 $ git clone https://github.com/PureStorage-OpenConnect/py-pure-client.git
 $ cd py-pure-client
 $ python3 -m build
-$ pip3 install dist/py_pure_client-*-py3-none-any.whl
+$ pip3 install dist/py_pure_client-*.whl
 ```
 
 ## Documentation

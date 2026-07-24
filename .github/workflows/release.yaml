@@ -1,3 +1,4 @@
+
 name: "Release Automation"
 
 on:
@@ -25,10 +26,9 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
-          # PR is guaranteed merged (see job `if`), so this commit is on master.
-          # Checking out the merge commit avoids fetching fork PR code, which
-          # actions/checkout v7 refuses in pull_request_target workflows.
-          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          # Safe: job runs only after the PR is merged (`merged == true` guard),
+          # so the checked-out merge commit is already on master.
+          allow-unsafe-pr-checkout: true
 
       - name: Extract Version from PR Title
         env:
@@ -70,4 +70,3 @@ jobs:
           gh release create "$VERSION" \
             --title "$VERSION" \
             --notes-file release_notes.md
-

@@ -31,7 +31,7 @@ from pypureclient.pure1.Pure1_1_5.models.cve_version import CveVersion
 
 class Cve(BaseModel):
     """
-    CVE details and affected Pure Storage appliances.
+    CVE details and affected Everpure appliances.
     """
     as_of: Optional[StrictInt] = Field(default=None, alias="_as_of", description="The freshness of the data (timestamp in millis since epoch).")
     id: Optional[StrictStr] = Field(default=None, description="A non-modifiable, globally unique ID chosen by the system.")

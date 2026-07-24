@@ -30933,9 +30933,9 @@ class Client(object):
         _return_http_data_only: Optional[bool] = None,
         _request_timeout: Optional[Union[float, Tuple[float, float]]] = None
     ) -> Union[ValidResponse, ErrorResponse]:
-        """List Pure Storage Support connection data
+        """List Everpure Support connection data
         
-        Displays information about whether the array can connect to Pure Storage Support by establishing a secure shell or secure HTTP connection and verifies that messages can be exchanged.
+        Displays information about whether the array can connect to Everpure Support by establishing a secure shell or secure HTTP connection and verifies that messages can be exchanged.
         
         :param authorization: Deprecated. Please use Client level authorization
         :type authorization: str

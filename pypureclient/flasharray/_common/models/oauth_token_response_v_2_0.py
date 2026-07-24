@@ -32,8 +32,8 @@ class OauthTokenResponse(BaseModel):
     """
     access_token: Optional[StrictStr] = Field(default=None, description="The serialized OAuth 2.0 Bearer token used to perform authenticated requests. The access token must be added to the Authorization header of all API calls.")
     expires_in: Optional[StrictInt] = Field(default=None, description="The duration after which the access token will expire. Measured in seconds. This differs from other duration fields that are expressed in milliseconds.")
-    issued_token_type: Optional[StrictStr] = Field(default=None, description="The type of token that is issued. The Pure Storage REST API supports OAuth 2.0 access tokens.")
-    token_type: Optional[StrictStr] = Field(default=None, description="Indicates how the API client can use the access token issued. The Pure Storage REST API supports the `Bearer` token.")
+    issued_token_type: Optional[StrictStr] = Field(default=None, description="The type of token that is issued. The Everpure REST API supports OAuth 2.0 access tokens.")
+    token_type: Optional[StrictStr] = Field(default=None, description="Indicates how the API client can use the access token issued. The Everpure REST API supports the `Bearer` token.")
     __properties = ["access_token", "expires_in", "issued_token_type", "token_type"]
 
     class Config:

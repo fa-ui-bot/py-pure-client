@@ -28,7 +28,7 @@ __class_apis_dict = {
     'AlertsApi': __LazyApiLoader('pypureclient.flashblade._common.apis.alerts_api_v_2_17', 'AlertsApi', '2.18'),
     'ArrayConnectionsApi': __LazyApiLoader('pypureclient.flashblade._common.apis.array_connections_api_v_2_17', 'ArrayConnectionsApi', '2.18'),
     'ArraysApi': __LazyApiLoader('pypureclient.flashblade._common.apis.arrays_api_v_2_18', 'ArraysApi', '2.18'),
-    'AuditsApi': __LazyApiLoader('pypureclient.flashblade._common.apis.audits_api_v_2_14', 'AuditsApi', '2.18'),
+    'AuditsApi': __LazyApiLoader('pypureclient.flashblade._common.apis.audits_api_v_2_17', 'AuditsApi', '2.18'),
     'AuthorizationApi': __LazyApiLoader('pypureclient.flashblade._common.apis.authorization_api_v_2_17', 'AuthorizationApi', '2.18'),
     'BladesApi': __LazyApiLoader('pypureclient.flashblade._common.apis.blades_api_v_2_17', 'BladesApi', '2.18'),
     'BucketReplicaLinksApi': __LazyApiLoader('pypureclient.flashblade._common.apis.bucket_replica_links_api_v_2_17', 'BucketReplicaLinksApi', '2.18'),
