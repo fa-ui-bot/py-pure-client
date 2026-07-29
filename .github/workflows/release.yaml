@@ -30,6 +30,7 @@ jobs:
           # Checking out the merge commit avoids fetching fork PR code, which
           # actions/checkout v7 refuses in pull_request_target workflows.
           ref: ${{ github.event.pull_request.merge_commit_sha }}
+          allow-unsafe-pr-checkout: true
 
       - name: Extract Version from PR Title
         env:
