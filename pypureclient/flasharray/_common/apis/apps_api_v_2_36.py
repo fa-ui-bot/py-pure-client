@@ -581,3 +581,6 @@ class AppsApi:
     api256_apps_get_with_http_info = apps_get_with_http_info
     api256_apps_nodes_get_with_http_info = apps_nodes_get_with_http_info
     api256_apps_patch_with_http_info = apps_patch_with_http_info
+    api257_apps_get_with_http_info = apps_get_with_http_info
+    api257_apps_nodes_get_with_http_info = apps_nodes_get_with_http_info
+    api257_apps_patch_with_http_info = apps_patch_with_http_info

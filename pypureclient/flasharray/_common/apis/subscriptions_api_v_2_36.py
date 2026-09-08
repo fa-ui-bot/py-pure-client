@@ -233,3 +233,4 @@ class SubscriptionsApi:
     api254_subscriptions_get_with_http_info = subscriptions_get_with_http_info
     api255_subscriptions_get_with_http_info = subscriptions_get_with_http_info
     api256_subscriptions_get_with_http_info = subscriptions_get_with_http_info
+    api257_subscriptions_get_with_http_info = subscriptions_get_with_http_info

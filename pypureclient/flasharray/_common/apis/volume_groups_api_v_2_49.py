@@ -2174,3 +2174,14 @@ class VolumeGroupsApi:
     api256_volume_groups_tags_delete_with_http_info = volume_groups_tags_delete_with_http_info
     api256_volume_groups_tags_get_with_http_info = volume_groups_tags_get_with_http_info
     api256_volume_groups_volumes_get_with_http_info = volume_groups_volumes_get_with_http_info
+    api257_volume_groups_delete_with_http_info = volume_groups_delete_with_http_info
+    api257_volume_groups_get_with_http_info = volume_groups_get_with_http_info
+    api257_volume_groups_patch_with_http_info = volume_groups_patch_with_http_info
+    api257_volume_groups_performance_get_with_http_info = volume_groups_performance_get_with_http_info
+    api257_volume_groups_post_with_http_info = volume_groups_post_with_http_info
+    api257_volume_groups_qos_get_with_http_info = volume_groups_qos_get_with_http_info
+    api257_volume_groups_space_get_with_http_info = volume_groups_space_get_with_http_info
+    api257_volume_groups_tags_batch_put_with_http_info = volume_groups_tags_batch_put_with_http_info
+    api257_volume_groups_tags_delete_with_http_info = volume_groups_tags_delete_with_http_info
+    api257_volume_groups_tags_get_with_http_info = volume_groups_tags_get_with_http_info
+    api257_volume_groups_volumes_get_with_http_info = volume_groups_volumes_get_with_http_info

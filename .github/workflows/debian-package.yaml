@@ -47,8 +47,9 @@ jobs:
             python3-all \
             python3-dateutil \
             python3-hatchling \
+            python3-bcrypt \
+            python3-cryptography \
             python3-jwt \
-            python3-paramiko \
             python3-pydantic \
             python3-urllib3
 
@@ -118,7 +119,7 @@ jobs:
           apt-get update -qq
           DEB_FILE=$(find ./deb-package -name "*.deb" | head -1)
           apt-get install -y "$DEB_FILE"
-          python3 -c "import pypureclient; print('Success! py-pure-client version:', pypureclient.__version__)"
+          python3 -c "import pypureclient.flasharray; print('Success! py-pure-client version:', pypureclient.__version__)"
 
   upload-to-release:
     name: Upload DEB to Release

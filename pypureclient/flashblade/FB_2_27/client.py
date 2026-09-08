@@ -58206,9 +58206,17 @@ class Client(object):
                 # If no chance for retries, return the error
                 if retries == 0:
                     return self._create_error_response(original_auth_error or error)
-                # If bad request, forbidden, or not found, return the error (it will never work)
-                elif error.status in [400, 403, 404]:
+                # If bad request or not found, return the error (it will never work)
+                elif error.status in [400, 404]:
                     return self._create_error_response(error)
+                # FlashBlade returns 403 for both expired API-token sessions and permission failures.
+                # Refresh an API-token session once; a second 403 returns the original error.
+                elif error.status == 403:
+                    if not isinstance(self._token_man, APITokenManager):
+                        return self._create_error_response(error)
+                    original_auth_error = error
+                    retries = 1
+                    self._set_auth_header(refresh=True)
                 # If authentication error, reset access token and retry once
                 elif error.status == 401:
                     original_auth_error = error
