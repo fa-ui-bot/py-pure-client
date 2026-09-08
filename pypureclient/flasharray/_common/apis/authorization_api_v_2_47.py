@@ -575,3 +575,7 @@ class AuthorizationApi:
     api256_logout_post_with_http_info = logout_post_with_http_info
     api256_api_api_version_get_with_http_info = api_api_version_get_with_http_info
     api256_oauth210_token_post_with_http_info = oauth210_token_post_with_http_info
+    api257_login_post_with_http_info = login_post_with_http_info
+    api257_logout_post_with_http_info = logout_post_with_http_info
+    api257_api_api_version_get_with_http_info = api_api_version_get_with_http_info
+    api257_oauth210_token_post_with_http_info = oauth210_token_post_with_http_info

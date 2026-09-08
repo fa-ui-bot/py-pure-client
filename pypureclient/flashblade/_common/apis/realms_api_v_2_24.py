@@ -662,6 +662,7 @@ class RealmsApi:
 
         _response_types_map = {
             '200': "RealmGetResponse",
+            '207': "RealmGetResponse",
         }
 
         return self.api_client.call_api(

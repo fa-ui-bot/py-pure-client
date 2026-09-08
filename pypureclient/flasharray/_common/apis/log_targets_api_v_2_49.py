@@ -2013,3 +2013,15 @@ class LogTargetsApi:
     api256_log_targets_syslog_settings_get_with_http_info = log_targets_syslog_settings_get_with_http_info
     api256_log_targets_syslog_settings_patch_with_http_info = log_targets_syslog_settings_patch_with_http_info
     api256_log_targets_syslog_test_get_with_http_info = log_targets_syslog_test_get_with_http_info
+    api257_log_targets_file_delete_with_http_info = log_targets_file_delete_with_http_info
+    api257_log_targets_file_get_with_http_info = log_targets_file_get_with_http_info
+    api257_log_targets_file_patch_with_http_info = log_targets_file_patch_with_http_info
+    api257_log_targets_file_post_with_http_info = log_targets_file_post_with_http_info
+    api257_log_targets_get_with_http_info = log_targets_get_with_http_info
+    api257_log_targets_syslog_delete_with_http_info = log_targets_syslog_delete_with_http_info
+    api257_log_targets_syslog_get_with_http_info = log_targets_syslog_get_with_http_info
+    api257_log_targets_syslog_patch_with_http_info = log_targets_syslog_patch_with_http_info
+    api257_log_targets_syslog_post_with_http_info = log_targets_syslog_post_with_http_info
+    api257_log_targets_syslog_settings_get_with_http_info = log_targets_syslog_settings_get_with_http_info
+    api257_log_targets_syslog_settings_patch_with_http_info = log_targets_syslog_settings_patch_with_http_info
+    api257_log_targets_syslog_test_get_with_http_info = log_targets_syslog_test_get_with_http_info

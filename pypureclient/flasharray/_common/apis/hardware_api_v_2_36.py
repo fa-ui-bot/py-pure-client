@@ -386,3 +386,5 @@ class HardwareApi:
     api255_hardware_patch_with_http_info = hardware_patch_with_http_info
     api256_hardware_get_with_http_info = hardware_get_with_http_info
     api256_hardware_patch_with_http_info = hardware_patch_with_http_info
+    api257_hardware_get_with_http_info = hardware_get_with_http_info
+    api257_hardware_patch_with_http_info = hardware_patch_with_http_info

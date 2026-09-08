@@ -2164,3 +2164,15 @@ class VchostsApi:
     api256_vchosts_get_with_http_info = vchosts_get_with_http_info
     api256_vchosts_patch_with_http_info = vchosts_patch_with_http_info
     api256_vchosts_post_with_http_info = vchosts_post_with_http_info
+    api257_vchosts_certificates_delete_with_http_info = vchosts_certificates_delete_with_http_info
+    api257_vchosts_certificates_get_with_http_info = vchosts_certificates_get_with_http_info
+    api257_vchosts_certificates_patch_with_http_info = vchosts_certificates_patch_with_http_info
+    api257_vchosts_certificates_post_with_http_info = vchosts_certificates_post_with_http_info
+    api257_vchosts_delete_with_http_info = vchosts_delete_with_http_info
+    api257_vchosts_endpoints_delete_with_http_info = vchosts_endpoints_delete_with_http_info
+    api257_vchosts_endpoints_get_with_http_info = vchosts_endpoints_get_with_http_info
+    api257_vchosts_endpoints_patch_with_http_info = vchosts_endpoints_patch_with_http_info
+    api257_vchosts_endpoints_post_with_http_info = vchosts_endpoints_post_with_http_info
+    api257_vchosts_get_with_http_info = vchosts_get_with_http_info
+    api257_vchosts_patch_with_http_info = vchosts_patch_with_http_info
+    api257_vchosts_post_with_http_info = vchosts_post_with_http_info

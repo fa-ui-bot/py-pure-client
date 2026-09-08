@@ -1427,3 +1427,11 @@ class AlertsApi:
     api256_alerts_rules_get_with_http_info = alerts_rules_get_with_http_info
     api256_alerts_rules_patch_with_http_info = alerts_rules_patch_with_http_info
     api256_alerts_rules_post_with_http_info = alerts_rules_post_with_http_info
+    api257_alerts_events_get_with_http_info = alerts_events_get_with_http_info
+    api257_alerts_get_with_http_info = alerts_get_with_http_info
+    api257_alerts_patch_with_http_info = alerts_patch_with_http_info
+    api257_alerts_rules_catalog_get_with_http_info = alerts_rules_catalog_get_with_http_info
+    api257_alerts_rules_delete_with_http_info = alerts_rules_delete_with_http_info
+    api257_alerts_rules_get_with_http_info = alerts_rules_get_with_http_info
+    api257_alerts_rules_patch_with_http_info = alerts_rules_patch_with_http_info
+    api257_alerts_rules_post_with_http_info = alerts_rules_post_with_http_info

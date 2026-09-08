@@ -662,6 +662,7 @@ class RealmsApi:
 
         _response_types_map = {
             '200': "RealmGetResponse",
+            '207': "RealmGetResponse",
         }
 
         return self.api_client.call_api(
@@ -1335,3 +1336,11 @@ class RealmsApi:
     api227_realms_post_with_http_info = realms_post_with_http_info
     api227_realms_space_get_with_http_info = realms_space_get_with_http_info
     api227_realms_space_storage_classes_get_with_http_info = realms_space_storage_classes_get_with_http_info
+    api228_realms_defaults_get_with_http_info = realms_defaults_get_with_http_info
+    api228_realms_defaults_patch_with_http_info = realms_defaults_patch_with_http_info
+    api228_realms_delete_with_http_info = realms_delete_with_http_info
+    api228_realms_get_with_http_info = realms_get_with_http_info
+    api228_realms_patch_with_http_info = realms_patch_with_http_info
+    api228_realms_post_with_http_info = realms_post_with_http_info
+    api228_realms_space_get_with_http_info = realms_space_get_with_http_info
+    api228_realms_space_storage_classes_get_with_http_info = realms_space_storage_classes_get_with_http_info
