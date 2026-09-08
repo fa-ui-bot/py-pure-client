@@ -21,10 +21,10 @@ Importable as
 .. module:: pypureclient.flasharray.client
 .. autofunction:: pypureclient.flasharray.client::Client
 
-FlashArray REST 2.56 Client
+FlashArray REST 2.57 Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. module:: pypureclient.flasharray.FA_2_56.client
-.. autoclass:: pypureclient.flasharray.FA_2_56.client::Client
+.. module:: pypureclient.flasharray.FA_2_57.client
+.. autoclass:: pypureclient.flasharray.FA_2_57.client::Client
    :members:
 
 Models
@@ -1050,6 +1050,18 @@ AuditResponse
    :model-hide-paramlist: False
    :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
 
+AuthenticationCredentials
+~~~~~~~~~~~~~~~~~~~~~~~~~
+.. autopydantic_model:: pypureclient.flasharray::AuthenticationCredentials
+   :model-show-json: False
+   :model-show-field-summary: False
+   :model-show-config-summary: False
+   :model-show-validator-summary: True
+   :model-show-validator-members: True
+   :undoc-members: True
+   :model-hide-paramlist: False
+   :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
+
 BasePort
 ~~~~~~~~
 .. autopydantic_model:: pypureclient.flasharray::BasePort
@@ -1197,6 +1209,18 @@ BuiltInRelationship
 BuiltInResourceNoId
 ~~~~~~~~~~~~~~~~~~~
 .. autopydantic_model:: pypureclient.flasharray::BuiltInResourceNoId
+   :model-show-json: False
+   :model-show-field-summary: False
+   :model-show-config-summary: False
+   :model-show-validator-summary: True
+   :model-show-validator-members: True
+   :undoc-members: True
+   :model-hide-paramlist: False
+   :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
+
+CaCertificateReferences
+~~~~~~~~~~~~~~~~~~~~~~~
+.. autopydantic_model:: pypureclient.flasharray::CaCertificateReferences
    :model-show-json: False
    :model-show-field-summary: False
    :model-show-config-summary: False
@@ -2025,6 +2049,18 @@ DataSealingKeyPost
 DataSealingKeyResponse
 ~~~~~~~~~~~~~~~~~~~~~~
 .. autopydantic_model:: pypureclient.flasharray::DataSealingKeyResponse
+   :model-show-json: False
+   :model-show-field-summary: False
+   :model-show-config-summary: False
+   :model-show-validator-summary: True
+   :model-show-validator-members: True
+   :undoc-members: True
+   :model-hide-paramlist: False
+   :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
+
+DataSealingKeyRevoke
+~~~~~~~~~~~~~~~~~~~~
+.. autopydantic_model:: pypureclient.flasharray::DataSealingKeyRevoke
    :model-show-json: False
    :model-show-field-summary: False
    :model-show-config-summary: False
@@ -3117,6 +3153,54 @@ FleetKeyResponse
 FleetMember
 ~~~~~~~~~~~
 .. autopydantic_model:: pypureclient.flasharray::FleetMember
+   :model-show-json: False
+   :model-show-field-summary: False
+   :model-show-config-summary: False
+   :model-show-validator-summary: True
+   :model-show-validator-members: True
+   :undoc-members: True
+   :model-hide-paramlist: False
+   :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
+
+FleetMemberBatchCertificateDetails
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. autopydantic_model:: pypureclient.flasharray::FleetMemberBatchCertificateDetails
+   :model-show-json: False
+   :model-show-field-summary: False
+   :model-show-config-summary: False
+   :model-show-validator-summary: True
+   :model-show-validator-members: True
+   :undoc-members: True
+   :model-hide-paramlist: False
+   :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
+
+FleetMemberBatchPost
+~~~~~~~~~~~~~~~~~~~~
+.. autopydantic_model:: pypureclient.flasharray::FleetMemberBatchPost
+   :model-show-json: False
+   :model-show-field-summary: False
+   :model-show-config-summary: False
+   :model-show-validator-summary: True
+   :model-show-validator-members: True
+   :undoc-members: True
+   :model-hide-paramlist: False
+   :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
+
+FleetMemberBatchResponse
+~~~~~~~~~~~~~~~~~~~~~~~~
+.. autopydantic_model:: pypureclient.flasharray::FleetMemberBatchResponse
+   :model-show-json: False
+   :model-show-field-summary: False
+   :model-show-config-summary: False
+   :model-show-validator-summary: True
+   :model-show-validator-members: True
+   :undoc-members: True
+   :model-hide-paramlist: False
+   :exclude-members: to_str, to_json, to_dict, from_json, from_dict, as_request_dict
+
+FleetMemberBatchResult
+~~~~~~~~~~~~~~~~~~~~~~
+.. autopydantic_model:: pypureclient.flasharray::FleetMemberBatchResult
    :model-show-json: False
    :model-show-field-summary: False
    :model-show-config-summary: False
